@@ -1,0 +1,87 @@
+[data-chat-color="black"] {
+    color: #000000;
+    text-shadow: 0.1em 0.1em #000000;
+}
+  
+[data-chat-color="dark-blue"] {
+    color: #0000aa;
+    text-shadow: 0.1em 0.1em #00002a;
+}
+  
+[data-chat-color="dark-green"] {
+    color: #00aa00;
+    text-shadow: 0.1em 0.1em #002a00;
+}
+  
+[data-chat-color="dark-aqua"] {
+    color: #00aaaa;
+    text-shadow: 0.1em 0.1em #002a2a;
+}
+  
+[data-chat-color="dark-red"] {
+    color: #aa0000;
+    text-shadow: 0.1em 0.1em #2a0000;
+}
+  
+[data-chat-color="dark-purple"] {
+    color: #aa00aa;
+    text-shadow: 0.1em 0.1em #2a002a;
+}
+  
+[data-chat-color="gold"] {
+    color: #ffaa00;
+    text-shadow: 0.1em 0.1em #2a2a00;
+}
+
+[data-chat-color="gray"] {
+    color: #aaaaaa;
+    text-shadow: 0.1em 0.1em #2a2a2a;
+}
+  
+[data-chat-color="dark-gray"] {
+    color: #555555;
+    text-shadow: 0.1em 0.1em #151515;
+}
+  
+[data-chat-color="blue"] {
+    color: #5555ff;
+    text-shadow: 0.1em 0.1em #15153f;
+}
+  
+[data-chat-color="green"] {
+    color: #55ff55;
+    text-shadow: 0.1em 0.1em #153f15;
+}
+  
+[data-chat-color="aqua"] {
+    color: #55ffff;
+    text-shadow: 0.1em 0.1em #153f3f;
+}
+  
+[data-chat-color="red"] {
+    color: #ff5555;
+    text-shadow: 0.1em 0.1em #3f1515;
+}
+  
+[data-chat-color="light-purple"] {
+    color: #ff55ff;
+    text-shadow: 0.1em 0.1em #3f153f;
+}
+  
+[data-chat-color="yellow"] {
+    color: #ffff55;
+    text-shadow: 0.1em 0.1em #3f3f15;
+}
+  
+[data-chat-color="white"] {
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em #3f3f3f;
+}
+
+[data-chat-style="italic"] {
+    font-style: italic;
+}
+
+[data-chat-style="bold"] {
+    font-weight: bold;
+}

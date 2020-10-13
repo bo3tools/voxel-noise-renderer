@@ -1,0 +1,8 @@
+{
+  "name": "noiserender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ws": "7.3.1"
+  }
+}

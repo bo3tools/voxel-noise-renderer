@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Minecraft Regular";
+    src: url("mcregular.woff") format("woff");
+}
+
+html, body {
+    background-color: #737373;
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#overlay {
+    top: 0;
+    right: 0;
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+    margin: 12px;
+    font-family: "Minecraft Regular";
+    -webkit-font-smoothing: none;
+    font-size: 0;
+}
+
+#overlay .label {
+    padding: 0px 2px;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.4);
+    clear: left;
+    float: left;
+}
+
+#overlay .hidden {
+    display: none;
+}
+
+#messages {
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+    margin: 12px;
+    bottom: 0;
+}
+
+@keyframes message-disappear {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.message[data-is-disappearing="true"] {
+    animation: message-disappear 1000ms forwards;
+}
+
+.message {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0px 5px;
+}
+
+.message[data-is-important="true"] {
+    background: rgba(0, 0, 0, 0.7);
+    border-left: 2px crimson solid;
+    padding: 4px 8px;
+}
+
+.message[data-is-important="true"] .text {
+    line-height: 20px;
+}
+
+.message .text {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    white-space: pre;
+    font-family: "Minecraft Regular";
+}
+
+#info:empty {
+    display: none;
+}
+
+#info {
+    position: absolute;
+    pointer-events: none;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    margin: 5px;
+    background: crimson;
+    padding: 4px 6px;
+    border: 1px rgba(0, 0, 0, 0.3) solid;
+    color: white;
+}

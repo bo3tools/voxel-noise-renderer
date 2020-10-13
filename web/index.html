@@ -1,0 +1,30 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+        <meta charset="utf-8">
+        <title>Heightmap</title>
+        <script src="js/stats.js"></script>
+        <script src="js/world.js"></script>
+        <script src="js/client.js"></script>
+        <script src="js/render.js"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/chat-colors.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+
+        <template id="template-message">
+            <div class="message">
+                <span class="text"></span>
+            </div>
+        </template>
+    </head> 
+    <body>
+        <div id="messages"></div>
+        <div id="overlay">
+            <div class="label">Heightmap Renderer <span id="stats-fps" class="hidden">(<span id="fps-counter"></span> fps)</span></div>
+            <div class="label hidden" id="stats-memory">
+                Used memory: <span id="memory-percent"></span>% (<span id="memory-used"></span>MB) of <span id="memory-total">0</span>MB
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </body> 
+</html>
